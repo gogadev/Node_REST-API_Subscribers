@@ -11,7 +11,7 @@ Content-Type: application/json
 
 {
   "name": "Mia",
-  "subscribedToChannel": "Bennetts Channel"
+  "subscribedToChannel": "My Channel"
 }
 
 ###
