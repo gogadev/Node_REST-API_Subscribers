@@ -1,0 +1,28 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/60b79b07553aac22c8ea0d31
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+  "name": "Mia",
+  "subscribedToChannel": "Bennetts Channel"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/60b79f5f055fa64c2c129bba
+
+###
+
+PATCH http://localhost:3000/subscribers/60b79d8e76c5df519ca867d3
+Content-Type: application/json
+
+{
+    "name": "Goga"
+}
